@@ -1,0 +1,178 @@
+
+// nice free skinny font
+@font-face {
+    font-family: Aaargh;
+    src: url('../fonts/Aaargh.eot'),
+         url('../fonts/Aaargh.ttf'),
+         url('../fonts/Aaargh.woff');
+}
+
+// removes outline in Ubuntu
+*:focus {
+    outline: none !important; }
+
+// I don't like links to be underlined by default
+a {
+    outline: none !important;
+    text-decoration: none !important; }
+
+// removes blue border in IE and Firefox
+a img {
+    border: none; }
+
+body {
+    background: #ddf;
+    border: none;
+    font-family: Aaargh, Arial;
+    margin: 0;
+    padding: 0;
+
+    #header {
+        background: #006;
+        border-bottom: 1px solid #fff;
+        height: 200px;
+        width: 100%;
+
+        #header_content {
+            height: 100%;
+            margin: 0 auto;
+            width: 1010px;
+
+            #logo {
+                border-left: 2px solid transparent;
+                border-radius: 10px;
+                border-right: 2px solid transparent;
+                color: #ddf;
+                display: block;
+                float: left;
+                font-size: 60px;
+                margin: 48px 0 0 0;
+                padding: 10px 25px;
+                $t: border .2s;
+                transition: $t;
+                -moz-transition: $t;
+                -o-transition: $t;
+                -webkit-transition: $t;
+                &:hover {
+                    border-left: 2px solid #fff;
+                    border-right: 2px solid #fff; } }
+
+            #contacts {
+                float: right;
+                margin-top: 21px;
+                width: 200px;
+
+                #email {
+                    background: url(../img/email.png) no-repeat right; }
+                #linkedin {
+                    background: url(../img/linkedin.png) no-repeat right; }
+                #resume {
+                    background: url(../img/resume.png) no-repeat right; }
+
+                .contact {
+                    border-left: 2px solid transparent;
+                    border-right: 2px solid transparent;
+		    border-radius: 5px;
+                    display: block;
+                    float: right;
+                    margin: 15px 15px 0 0;
+                    padding: 0 10px 0 25px;
+                    $t: border .2s;
+                    transition: $t;
+                    -moz-transition: $t;
+                    -o-transition: $t;
+                    -webkit-transition: $t;
+                    &:hover {
+                        border-left: 2px solid #fff;
+                        border-right: 2px solid #fff;
+                        cursor: pointer; }
+                    .contact_lbl {
+                        color: #ddf;
+                        display: block;
+			float: right;
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding: 6px 50px 0 0; } } } } }
+
+    #body {
+        height: 560px;
+        width: 100%;
+        #body_content {
+            height: 100%;
+            margin: 0 auto;
+            width: 960px;
+            #subheader {
+                padding: 25px 0;
+                #back {
+                    background: url(../img/sprite-02.png) no-repeat 0 -64px;
+                    display: block;
+                    float: left;
+                    height: 64px;
+                    width: 64px;
+                    $t: all .2s;
+                    $t: none .2s;
+                    transition: $t;
+                    -moz-transition: $t;
+                    -o-transition: $t;
+                    -webkit-transition: $t;
+                    &:hover {
+                        background: url(../img/sprite-02.png) no-repeat 0 0; } }
+                #subtitle {
+                    color: #006;
+                    line-height: 64px;
+                    font-size: 35px;
+                    padding-left: 40px; } }
+
+            .bubble {
+                background: #eef;
+                border: 2px solid transparent;
+                border-radius: 10px;
+                box-shadow: 0 0 5px #aaf; }
+
+            .clickable {
+                $t: border .2s;
+                transition: $t;
+                -moz-transition: $t;
+                -o-transition: $t;
+                -webkit-transition: $t;
+                &:hover {
+                    border-left: 2px solid #006;
+                    border-right: 2px solid #006;
+                    cursor: pointer; } }
+
+            .item {
+                display: block;
+                margin-bottom: 30px;
+                min-height: 300px;
+                padding: 20px 30px 0 30px;
+
+                #dgi {
+                    background: url(../img/dgi.png);}
+                #design1 {
+                    background: url(../img/design1.png); }
+                #databases {
+                    background: url(../img/databases.png); }
+                #tea {
+                    background: url(../img/tea.png); }
+                #handman {
+                    background: url(../img/handman.png); }
+                #notable {
+                    background: url(../img/notable.png); }
+
+                .title {
+                    color: #006;
+                    display: block;
+                    font-size: 27px;
+                    margin-bottom: 20px; }
+                .screenshot {
+                    border: 1px solid #aaf;
+                    display: block;
+                    float: left;
+                    height: 200px;
+                    margin-right: 35px;
+                    width: 300px; }
+                .description {
+                    color: #006;
+                    font-family: Arial;
+                    font-size: 17px;
+                    line-height: 20px; } } } } }

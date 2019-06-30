@@ -1,0 +1,48 @@
+#flash {
+  color: #f00;
+  display: none;
+  float: right;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 70px; }
+  #flash #flash_link:hover {
+    text-decoration: underline !important; }
+
+.show_flash {
+  display: inline !important; }
+
+.item {
+  padding: 40px 0 1px 104px !important; }
+
+.music_item {
+  display: inline-block;
+  margin-right: 105px; }
+
+.title {
+  margin-bottom: 10px !important; }
+
+.music {
+  border: 1px solid #aaf;
+  display: block;
+  height: 26px;
+  margin-bottom: 10px;
+  width: 305px; }
+
+.download {
+  background: #ebebeb;
+  background: none;
+  border: 1px solid #aaf;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  margin: 0 0 45px -7px;
+  padding: 0 7px;
+  transition: border 0.2s;
+  -moz-transition: border 0.2s;
+  -o-transition: border 0.2s;
+  -webkit-transition: border 0.2s; }
+  .download:hover {
+    text-decoration: underline !important; }

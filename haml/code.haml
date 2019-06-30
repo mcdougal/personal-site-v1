@@ -1,0 +1,48 @@
+!!!
+
+%html
+  %head
+    %title Cedric McDougal - Code
+    %link(rel="shortcut icon" href="img/favicon.ico" type="image/x-icon")
+    %meta(http-equiv="Content-Type" content="text/html; charset=ISO-8859-1")
+    %meta(name="Keywords" content="cedric,mcdougal,personal website,awesome programmer")
+    %meta(name="Description" content="The personal website for Cedric McDougal")
+
+  %body
+    %link(rel="stylesheet" type="text/css" href="css/base.css")
+    
+    #header
+      #header_content
+        %a#logo(href="home.html")
+          Cedric McDougal
+        #contacts
+          %a.contact(href="mailto:mcdougal.ce@gmail.com" target="_blank")
+            %span#email.contact_lbl
+              mcdougal.ce@gmail.com
+          %a.contact(href="http://www.linkedin.com/profile/view?id=67935021&trk=tab_pro" target="_blank")
+            %span#linkedin.contact_lbl
+              LinkedIn
+          %a.contact(href="pdf/cedric-mcdougal-resume.pdf")
+            %span#resume.contact_lbl
+              Resume
+
+    #body
+      #body_content
+        #subheader
+          %a#back(href="home.html")
+          %span#subtitle
+            Code
+
+        %a.bubble.clickable.item(href="https://github.com/mcdougal/handman" target="_blank")
+          %span.title
+            Handman
+          %span#handman.screenshot
+          %span.description
+            I took a mobile application development class in which the theme of the final project was to create an Android app that would help with health in some way. Since my mom developed micrographia when she had a stroke, I decided to create an app that could help her with that condition. That app is Handman. It is a modification of hangman in which you can prevent the usual body-part penalty by tracing the letter you guessed with a high accuracy. The idea is a mashup of two things I learned from my mom. First, studies have shown that using your pointer fingers to write large letters is an effective way to regain your writing ability. Second, occupational therapy sucks. My goal in making this game was to create a fun way for people with micrographia to regain the ability to write.
+
+        %a.bubble.clickable.item(href="https://github.com/mcdougal/notable" target="_blank")
+          %span.title
+            Notable
+          %span#notable.screenshot
+          %span.description
+            In my college software development course, our final project was to create a program that can randomly generate a piece of music. I called mine Notable. I did the project in Java and it can be run from the command line. It takes a configuration file and outputs a text file that can be read by the LilyPond program to create a midi representation of the music. I plan to clean up the source code and add more features to the program when I get some time, but until then please excuse the mess.

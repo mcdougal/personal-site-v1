@@ -1,0 +1,46 @@
+
+.nav {
+    display: block;
+    height: 200px;
+    width: 450px;
+
+    &:hover {
+        #web {
+            background: url(../img/sprite-01.png) no-repeat 0 -384px; }
+        #code {
+            background: url(../img/sprite-01.png) no-repeat 0 -256px; }
+        #music {
+            background: url(../img/sprite-01.png) no-repeat 0 -128px; }
+        #videos {
+            background: url(../img/sprite-01.png) no-repeat 0 0; } }
+
+    #web {
+        background: url(../img/sprite-01.png) no-repeat 0 -448px; }
+    #code {
+        background: url(../img/sprite-01.png) no-repeat 0 -320px; }
+    #music {
+        background: url(../img/sprite-01.png) no-repeat 0 -192px; }
+    #videos {
+        background: url(../img/sprite-01.png) no-repeat 0 -64px; }
+
+    .nav_lbl {
+        color: #006;
+        display: inline-block;
+        font-size: 26px;
+        line-height: 64px;
+	margin: 64px 0 0 140px;
+	padding: 0 0 0 85px;
+        $t: all .2s;
+        $t: none;
+        transition: $t;
+        -moz-transition: $t;
+        -o-transition: $t;
+        -webkit-transition: $t; } }
+
+.top {
+    margin: 50px 0; }
+.bottom { }
+.left {
+    float: left; }
+.right {
+    float: right; }

@@ -1,0 +1,40 @@
+.nav {
+  display: block;
+  height: 200px;
+  width: 450px; }
+  .nav:hover #web {
+    background: url(../img/sprite-01.png) no-repeat 0 -384px; }
+  .nav:hover #code {
+    background: url(../img/sprite-01.png) no-repeat 0 -256px; }
+  .nav:hover #music {
+    background: url(../img/sprite-01.png) no-repeat 0 -128px; }
+  .nav:hover #videos {
+    background: url(../img/sprite-01.png) no-repeat 0 0; }
+  .nav #web {
+    background: url(../img/sprite-01.png) no-repeat 0 -448px; }
+  .nav #code {
+    background: url(../img/sprite-01.png) no-repeat 0 -320px; }
+  .nav #music {
+    background: url(../img/sprite-01.png) no-repeat 0 -192px; }
+  .nav #videos {
+    background: url(../img/sprite-01.png) no-repeat 0 -64px; }
+  .nav .nav_lbl {
+    color: #006;
+    display: inline-block;
+    font-size: 26px;
+    line-height: 64px;
+    margin: 64px 0 0 140px;
+    padding: 0 0 0 85px;
+    transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none; }
+
+.top {
+  margin: 50px 0; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }

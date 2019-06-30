@@ -1,0 +1,43 @@
+!!!
+
+%html
+  %head
+    %title Cedric McDougal
+    %link(rel="shortcut icon" href="img/favicon.ico" type="image/x-icon")
+    %meta(http-equiv="Content-Type" content="text/html; charset=ISO-8859-1")
+    %meta(name="Keywords" content="cedric,mcdougal,personal website,awesome programmer")
+    %meta(name="Description" content="The personal website for Cedric McDougal")
+
+  %body
+    %link(rel="stylesheet" type="text/css" href="css/base.css")
+    %link(rel="stylesheet" type="text/css" href="css/home.css")
+    
+    #header
+      #header_content
+        %a#logo(href="home.html")
+          Cedric McDougal
+        #contacts
+          %a.contact(href="mailto:mcdougal.ce@gmail.com" target="_blank")
+            %span#email.contact_lbl
+              mcdougal.ce@gmail.com
+          %a.contact(href="http://www.linkedin.com/profile/view?id=67935021&trk=tab_pro" target="_blank")
+            %span#linkedin.contact_lbl
+              LinkedIn
+          %a.contact(href="pdf/cedric-mcdougal-resume.pdf")
+            %span#resume.contact_lbl
+              Resume
+
+    #body
+      #body_content
+        %a.bubble.clickable.nav.top.left(href="web.html")
+          %span#web.nav_lbl
+            Web
+        %a.bubble.clickable.nav.top.right(href="code.html")
+          %span#code.nav_lbl
+            Code
+        %a.bubble.clickable.nav.bottom.left(href="music.html")
+          %span#music.nav_lbl
+            Music
+        %a.bubble.clickable.nav.bottom.right(href="videos.html")
+          %span#videos.nav_lbl
+            Videos

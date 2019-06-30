@@ -1,0 +1,153 @@
+@font-face {
+  font-family: Aaargh;
+  src: url("../fonts/Aaargh.eot"), url("../fonts/Aaargh.ttf"), url("../fonts/Aaargh.woff"); }
+
+*:focus {
+  outline: none !important; }
+
+a {
+  outline: none !important;
+  text-decoration: none !important; }
+
+a img {
+  border: none; }
+
+body {
+  background: #ddf;
+  border: none;
+  font-family: Aaargh, Arial;
+  margin: 0;
+  padding: 0; }
+  body #header {
+    background: #006;
+    border-bottom: 1px solid #fff;
+    height: 200px;
+    width: 100%; }
+    body #header #header_content {
+      height: 100%;
+      margin: 0 auto;
+      width: 1010px; }
+      body #header #header_content #logo {
+        border-left: 2px solid transparent;
+        border-radius: 10px;
+        border-right: 2px solid transparent;
+        color: #ddf;
+        display: block;
+        float: left;
+        font-size: 60px;
+        margin: 48px 0 0 0;
+        padding: 10px 25px;
+        transition: border 0.2s;
+        -moz-transition: border 0.2s;
+        -o-transition: border 0.2s;
+        -webkit-transition: border 0.2s; }
+        body #header #header_content #logo:hover {
+          border-left: 2px solid #fff;
+          border-right: 2px solid #fff; }
+      body #header #header_content #contacts {
+        float: right;
+        margin-top: 21px;
+        width: 200px; }
+        body #header #header_content #contacts #email {
+          background: url(../img/email.png) no-repeat right; }
+        body #header #header_content #contacts #linkedin {
+          background: url(../img/linkedin.png) no-repeat right; }
+        body #header #header_content #contacts #resume {
+          background: url(../img/resume.png) no-repeat right; }
+        body #header #header_content #contacts .contact {
+          border-left: 2px solid transparent;
+          border-right: 2px solid transparent;
+          border-radius: 5px;
+          display: block;
+          float: right;
+          margin: 15px 15px 0 0;
+          padding: 0 10px 0 25px;
+          transition: border 0.2s;
+          -moz-transition: border 0.2s;
+          -o-transition: border 0.2s;
+          -webkit-transition: border 0.2s; }
+          body #header #header_content #contacts .contact:hover {
+            border-left: 2px solid #fff;
+            border-right: 2px solid #fff;
+            cursor: pointer; }
+          body #header #header_content #contacts .contact .contact_lbl {
+            color: #ddf;
+            display: block;
+            float: right;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 6px 50px 0 0; }
+  body #body {
+    height: 560px;
+    width: 100%; }
+    body #body #body_content {
+      height: 100%;
+      margin: 0 auto;
+      width: 960px; }
+      body #body #body_content #subheader {
+        padding: 25px 0; }
+        body #body #body_content #subheader #back {
+          background: url(../img/sprite-02.png) no-repeat 0 -64px;
+          display: block;
+          float: left;
+          height: 64px;
+          width: 64px;
+          transition: none 0.2s;
+          -moz-transition: none 0.2s;
+          -o-transition: none 0.2s;
+          -webkit-transition: none 0.2s; }
+          body #body #body_content #subheader #back:hover {
+            background: url(../img/sprite-02.png) no-repeat 0 0; }
+        body #body #body_content #subheader #subtitle {
+          color: #006;
+          line-height: 64px;
+          font-size: 35px;
+          padding-left: 40px; }
+      body #body #body_content .bubble {
+        background: #eef;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        box-shadow: 0 0 5px #aaf; }
+      body #body #body_content .clickable {
+        transition: border 0.2s;
+        -moz-transition: border 0.2s;
+        -o-transition: border 0.2s;
+        -webkit-transition: border 0.2s; }
+        body #body #body_content .clickable:hover {
+          border-left: 2px solid #006;
+          border-right: 2px solid #006;
+          cursor: pointer; }
+      body #body #body_content .item {
+        display: block;
+        margin-bottom: 30px;
+        min-height: 300px;
+        padding: 20px 30px 0 30px; }
+        body #body #body_content .item #dgi {
+          background: url(../img/dgi.png); }
+        body #body #body_content .item #design1 {
+          background: url(../img/design1.png); }
+        body #body #body_content .item #databases {
+          background: url(../img/databases.png); }
+        body #body #body_content .item #tea {
+          background: url(../img/tea.png); }
+        body #body #body_content .item #handman {
+          background: url(../img/handman.png); }
+        body #body #body_content .item #notable {
+          background: url(../img/notable.png); }
+        body #body #body_content .item .title {
+          color: #006;
+          display: block;
+          font-size: 27px;
+          margin-bottom: 20px; }
+        body #body #body_content .item .screenshot {
+          border: 1px solid #aaf;
+          display: block;
+          float: left;
+          height: 200px;
+          margin-right: 35px;
+          width: 300px; }
+        body #body #body_content .item .description {
+          color: #006;
+          font-family: Arial;
+          font-size: 17px;
+          line-height: 20px; }
